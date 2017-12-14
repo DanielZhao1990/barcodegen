@@ -1,4 +1,6 @@
 <?php namespace barcodegen;
+use barcodegen\drawer\BCGDrawJPG;
+use barcodegen\drawer\BCGDrawPNG;
 /**
  *--------------------------------------------------------------------
  *
