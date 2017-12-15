@@ -15,9 +15,6 @@
   "autoload": {
     "psr-4": {
       "barcodegen\\": "src"
-    },
-    "files": [
-      "src/helper.php"
-    ]
+    }
   }
 }
