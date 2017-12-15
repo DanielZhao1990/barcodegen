@@ -23,7 +23,7 @@ class BarcodeGenerator
         $code->setThickness($thickness); // Thickness
         $code->setForegroundColor($color_black); // Color of bars
         $code->setBackgroundColor($color_white); // Color of spaces
-        $code->setLabel($data); // Text
+        $code->parse($data); // Text
         /* Here is the list of the arguments
        1 - Filename (empty : display on screen)
        2 - Background color */
